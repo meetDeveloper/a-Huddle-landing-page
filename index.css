@@ -2,10 +2,8 @@
 FONTS:
 1. open sans - 400
 2. poppins - 400 and 600
-
 SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-
 FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 */
@@ -35,25 +33,24 @@ body{
 
 .container{
     max-width:144rem;
-    margin: 0 auto;
-    padding: 2.8rem 0;
+    margin: 3.2rem 6.4rem;
 }
 
 .hero-box{
     display: flex;
-    gap:5.2rem;
+    gap:4.8rem;
     justify-content: center;
     margin-bottom: 3.6rem;
 }
 
 .logo-img{
     height: 4.4rem;
-    margin-bottom: 10.2rem ;
+    margin-bottom: 11.2rem ;
 }
 
 .main{
     font-family: 'Poppins', sans-serif;
-    padding: 2.4rem 12.8rem 0 0;
+    padding: 2.4rem 6.2rem 0 0;
     align-self: flex-start;
 }
 
@@ -76,7 +73,7 @@ body{
 
 .btn{
     border : 2px solid #523c8c;
-    padding: 1.4rem 6.2rem;
+    padding: 1.8rem 6.2rem;
     border-radius: 4rem;
     color:hsl(257, 40%, 49%);
     font-size: 1.6rem;
@@ -95,8 +92,7 @@ body{
     font-size: 2.4rem;
     justify-content: flex-end;
     gap:1.2rem;
-    margin-top: -3.6rem;
-    margin-right: 12.8rem;
+    margin-right: 2.4rem;
 }
 
 .facebook{
@@ -104,7 +100,7 @@ body{
 }
 
 .icon{
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     color:#fff;
     padding:0.6rem;
     border: 2px solid #fff;
@@ -169,41 +165,3 @@ body{
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); } */
