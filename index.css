@@ -21,45 +21,44 @@ FONT SIZE SYSTEM (px)
 }
 
 body{
-    height: 100vh;
+    height:100vh;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     background-image: url("images/bg-desktop.svg"),
     linear-gradient(rgba(103, 75, 175),rgba(103, 75, 175));
     background-repeat: no-repeat;
     background-size: contain;
-
 }
 
 .container{
     max-width:144rem;
-    margin: 3.2rem 6.4rem;
+    margin: 4.8rem 6.2rem 4.8rem 8rem;
 }
 
 .hero-box{
     display: flex;
-    gap:4.8rem;
+    gap:6.2rem;
     justify-content: center;
     margin-bottom: 3.6rem;
+    margin-right:3.6rem;
 }
 
 .logo-img{
     height: 4.4rem;
-    margin-bottom: 11.2rem ;
+    margin-bottom: 9.6rem;
 }
 
 .main{
     font-family: 'Poppins', sans-serif;
-    padding: 2.4rem 6.2rem 0 0;
+    padding: 3.6rem 0 0 0;
     align-self: flex-start;
 }
 
 
 .hero-heading{
     font-weight: 600;
-    font-size: 3.8rem;
+    font-size: 4.4rem;
     color:#fff;
-    padding-right: 7.2rem;
     margin-bottom: 2.4rem;
 }
 
@@ -92,6 +91,7 @@ body{
     font-size: 2.4rem;
     justify-content: flex-end;
     gap:1.2rem;
+    margin-top : 4.8rem;
     margin-right: 2.4rem;
 }
 
@@ -100,9 +100,9 @@ body{
 }
 
 .icon{
-    font-size: 2.4rem;
+    font-size: 1.6rem;
     color:#fff;
-    padding:0.6rem;
+    padding:0.8rem;
     border: 2px solid #fff;
     border-radius: 10rem;
     transition: all 0.3s;
@@ -124,12 +124,13 @@ body{
     }
 
     .container{
-        padding:3.6rem 3.8rem;
+        padding:3.6rem ;
+        margin:0;
     }
 
     .logo-img{
         height: 3.6rem;
-        margin-bottom: 4rem;
+        margin-bottom: 4.8rem;
     }
 
     .main{
@@ -139,6 +140,7 @@ body{
 
     .hero-box{
         flex-direction: column;
+        margin: 0;
     }
 
     .hero-heading{
